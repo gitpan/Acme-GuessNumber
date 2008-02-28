@@ -1,6 +1,6 @@
 # Acme::GuessNumber - Number guessing game robot
 
-# Copyright (c) 2007 imacat. All rights reserved. This program is free
+# Copyright (c) 2007-2008 imacat. All rights reserved. This program is free
 # software; you can redistribute it and/or modify it under the same terms
 # as Perl itself.
 # First written: 2007-05-19
@@ -10,7 +10,7 @@ use strict;
 use warnings;
 use base qw(Exporter);
 use vars qw($VERSION @EXPORT @EXPORT_OK);
-$VERSION = 0.01;
+$VERSION = 0.02;
 @EXPORT = qw(guess_number HURRY_UP);
 @EXPORT_OK = @EXPORT;
 # Prototype declaration
@@ -164,7 +164,7 @@ imacat <imacat@mail.imacat.idv.tw>
 
 =head1 COPYRIGHT
 
-Copyright (c) 2007 imacat. All rights reserved. This program is free
+Copyright (c) 2007-2008 imacat. All rights reserved. This program is free
 software; you can redistribute it and/or modify it under the same terms
 as Perl itself.
 

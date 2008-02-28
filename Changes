@@ -1,4 +1,16 @@
 Revision history for Perl module Acme-GuessNumber
 
+2008-02-29	version 0.02
+
+2008-02-28
+	 1. Makefile.PL: Added conditional checks for whether LICENSE is
+	    available in ExtUtils::MakeMaker.
+	 2. Build.PL: Added "build_requires".
+	 3. Makefile.PL: Added conditional checks for whether SIGN is
+	    available in ExtUtils::MakeMaker.
+	 4. Makefile.PL: Added PL_FILES to disable PL files searching
+	    behavior, in order to work with ExtUtils::MakeMaker earlier
+	    than 6.25 that treats Build.PL as one of the PL files to run.
+
 2007-05-19	version 0.01
-    - original version
+	- original version
