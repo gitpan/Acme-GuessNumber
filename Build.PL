@@ -4,7 +4,7 @@ use Module::Build;
 
 my $build = Module::Build->new(
     dist_name       => "Acme-GuessNumber",
-    dist_version    => "0.02",
+    dist_version    => "0.03",
     dist_abstract   => "Automatic number guessing game robot",
     dist_author     => "imacat <imacat\@mail.imacat.idv.tw>",
     license         => "perl",

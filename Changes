@@ -1,4 +1,11 @@
-Revision history for Perl module Acme-GuessNumber
+Acme-GuessNumber change log
+
+2008-04-21	version 0.03
+	 1. Todo: Renamed to TODO.
+	 2. TODO: Updated.
+	 3. Artistic and COPYING: Added, in replace of LICENSE.
+	 4. LICENSE: Deleted.  Its GPL v2 is outdated, and its Artistic
+	    license contains incorrect terms from unknown sources.
 
 2008-02-29	version 0.02
 

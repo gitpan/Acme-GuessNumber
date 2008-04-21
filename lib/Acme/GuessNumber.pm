@@ -10,7 +10,7 @@ use strict;
 use warnings;
 use base qw(Exporter);
 use vars qw($VERSION @EXPORT @EXPORT_OK);
-$VERSION = 0.02;
+$VERSION = 0.03;
 @EXPORT = qw(guess_number HURRY_UP);
 @EXPORT_OK = @EXPORT;
 # Prototype declaration
