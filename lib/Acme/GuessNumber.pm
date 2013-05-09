@@ -10,7 +10,7 @@ use strict;
 use warnings;
 use base qw(Exporter);
 use vars qw($VERSION @EXPORT @EXPORT_OK);
-$VERSION = 0.03;
+$VERSION = 0.04;
 @EXPORT = qw(guess_number HURRY_UP);
 @EXPORT_OK = @EXPORT;
 # Prototype declaration
@@ -90,7 +90,7 @@ __END__
 
 =head1 NAME
 
-Acme::GuessNumber - Automatic number guessing game robot
+Acme::GuessNumber - An automatic number guessing game robot
 
 =head1 SYNOPSIS
 
@@ -107,23 +107,22 @@ You just don't know when.  You have only to wait.  As the time goes by,
 the bets in your hand become fewer and fewer.  You feel the time goes
 slower and slower.  This lengthy waiting process become painfully long,
 like a train running straightforwardly into hell.  You start feeling
-your whole life is a failure, as the jackpot never comes...
+your whole life is a misery, as the jackpot never comes...
 
 But, hey, why so painfully waiting?  The Goddess will finally smile at
 you, right?  So, why not put this painly waiting process to a computer
-program?  Yes.  This is the whole idea, the greatest invention in the
-century::  An automatic gambler!  There is no secret.  It is simple
-brute force.  It never-endingly runs toward the final jackpot.  You can
-go for other business: sleep, eat, work.  When you finally came back you
-wins.  With it, the hell of gambling is history!
+program?  Yes.  That is the whole idea, the greatest invention in the
+century:  An automatic gambler!  There is no secret.  It is simple
+brute-force.  It never-endingly runs toward your final jackpot.  You can
+go for your life: sleep, eat, work.  When you finally came back you
+win.  With it, the hell of gambling is history!
 
-Remember, that the computer is never affected by emotion, luck,
-everything.  It never feel anxious or depress.  It simply, faithfully,
+Remember, that the computer is never affected by emotions, luck,
+everything.  It never feel anxious or depressed.  It simply, faithfully,
 determinedly runs the probability until the jackpot.  As you know,
-the anxiety and depression is the enemy of the games, while a
-simple, faithful and determined mind is the only path to the jackpot.
-This makes computer a perfect candidate as a gambler than an ordinary
-human.
+the anxiety and depression are the enemy of the games, while a
+simple, faithful, and determined mind is the only path to the jackpot.
+This makes a computer a perfect gambler than an ordinary human being.
 
 =head1 FUNCTIONS
 
@@ -133,7 +132,7 @@ human.
 
 Start playing.  Give it a maximum range of the numbers, and the program
 will play the number guessing game for you.  If you are in a hurry, you
-can also speed it up by setting $hurry = 1, or use the exported symble
+can also speed it up by setting $hurry = 1, or use the exported symbol
 HURRY_UP.
 
 =back
@@ -142,15 +141,15 @@ HURRY_UP.
 
 =head2 It's so funny!  May I join the game?
 
-No.  That's the whole point of acme.  Human is never acme.  Only
+No.  That's the whole point of acme.  Human beings are never acme.  Only
 machines are acme.  So, in order for everything to be acme, no human
-interfere is allowed.  This ensures that when guessing, the player
-will never be bothered by all kinds of emotion: anxious, depress,
+being is allowed.  This ensures that when guessing, the player
+is never bothered by all kinds of feelings: anxiety, depression,
 anything.  It just guesses, precisely.  Nothing more.
 
 =head1 BUGS
 
-No.  This can't possible be wrong.  This is brute force.  It will try
+No.  This can't possiblely be wrong.  This is brute-force.  It will try
 until it succeeds.  Nothing can stop it from success.  You always win!
 You will always win!  The Goddess will always smile at you!
 

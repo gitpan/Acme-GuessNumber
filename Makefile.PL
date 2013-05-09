@@ -14,7 +14,7 @@ $eummver =~ s/_//;
 
 WriteMakefile(
     NAME        => "Acme-GuessNumber",
-    VERSION     => "0.03",
+    VERSION     => "0.04",
     ABSTRACT    => "Automatic number guessing game robot",
     AUTHOR      => "imacat <imacat\@mail.imacat.idv.tw>",
     PREREQ_PM   => { },

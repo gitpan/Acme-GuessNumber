@@ -1,4 +1,4 @@
-* Acme::GuessNumber
+Acme-GuessNumber - Automatic number guessing game robot
 
 Many people have this experience:  You sit before a gambling table.  You
 keep placing the bet.  You know the Goddess will finally smile at you.
@@ -24,14 +24,17 @@ simple, faithful and determined mind is the only path to the jackpot.
 This makes computer a perfect candidate as a gambler than an ordinary
 human.
 
+
 * Installation
 
-Acme::GuessNumber uses the standard perl module install process:
+    Read INSTALL for instructions on how to install
+Locale::Maketext::Gettext.
 
-perl Makefile.PL
-make
-make test
-make install
+
+* News, Changes and Updates
+
+    Refer to the Changes for changes, bug fixes, updates, new functions, etc.
+
 
 * Copyright
 
